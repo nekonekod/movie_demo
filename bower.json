@@ -1,0 +1,27 @@
+{
+  "name": "movie_demo",
+  "homepage": "https://github.com/nekonekod/movie_demo",
+  "authors": [
+    "nekonekod <nekonekod.goo@gmail.com>"
+  ],
+  "description": "by node\\mangodb",
+  "main": "",
+  "keywords": [
+    "movie",
+    "node",
+    "mangodb",
+    "movie"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
