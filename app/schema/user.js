@@ -11,6 +11,12 @@ var UserSchema = new mongoose.Schema({
     unique:false,
     type:String
   },
+  //0:nomal user
+  //1:verified user
+  //2:professor user
+  //>10:admin
+  //>50 super admin
+  role:Number,
   meta:{
     createAt:{
       type:Date,
